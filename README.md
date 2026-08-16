@@ -162,7 +162,6 @@ pandas
 matplotlib
 seaborn
 scikit-learn
-jupyter
 ```
 
 ---
