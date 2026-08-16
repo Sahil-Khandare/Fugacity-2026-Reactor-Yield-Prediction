@@ -115,12 +115,7 @@ The final solution uses an **Extra Trees Regressor** combined with physically mo
 
 ### Development Environment
 
-- Jupyter Notebook / Google Colab
-
-### Version Control
-
-- Git
-- GitHub
+- Google Colab
 
 ---
 
@@ -142,9 +137,6 @@ Fugacity-2026/
 ├── README.md
 └── requirements.txt
 ```
-
-> Dataset files may be excluded from the public repository if competition rules or organizer policies restrict redistribution.
-
 ---
 
 ## Installation
@@ -152,8 +144,8 @@ Fugacity-2026/
 Clone the repository:
 
 ```bash
-git clone https://github.com/<your-username>/<repository-name>.git
-cd <repository-name>
+git clone https://github.com/Sahil-Khandare/Fugacity-2026-Reactor-Yield-Prediction.git
+cd Fugacity-2026-Reactor-Yield-Prediction
 ```
 
 Install the required dependencies:
@@ -185,19 +177,9 @@ The project uses only open-source Python libraries and the competition-provided 
 
 ## Usage
 
-Open the notebook:
+This project was developed and executed using **Google Colab**.
 
-```bash
-jupyter notebook
-```
-
-or launch it using Jupyter Lab:
-
-```bash
-jupyter lab
-```
-
-Run the notebook sequentially from:
+Open the Jupyter Notebook in Google Colab and run the cells sequentially from:
 
 ```text
 Data Loading
@@ -228,14 +210,6 @@ overall_yield
 ```
 
 with exactly 50 predictions in the same order as the competition test dataset.
-
----
-
-## API Documentation
-
-Not applicable.
-
-This project is implemented as an offline machine learning pipeline and does not expose a REST API.
 
 ---
 
@@ -376,14 +350,6 @@ The holdout validation RMSE was:
 Lower RMSE indicates better predictive performance.
 
 > These are local validation results and should not be interpreted as the official competition leaderboard score.
-
----
-
-## Dashboard / Analysis
-
-Not applicable.
-
-This project focuses on machine learning model development rather than an interactive dashboard.
 
 ---
 
@@ -587,31 +553,9 @@ Final prediction checks included:
 
 ---
 
-## Deployment
-
-Not applicable.
-
-The project was developed as an offline competition machine learning pipeline. The final output is a CSV file submitted through the competition platform rather than a deployed web service.
-
----
-
 ## Author
 
 **Sahil Khandare**
 
 Software Engineering Student  
 India
-
-### Skills Demonstrated
-
-- Python
-- Machine Learning
-- Scikit-learn
-- Pandas
-- NumPy
-- Data Analysis
-- Feature Engineering
-- Ensemble Learning
-- Cross-Validation
-- Model Evaluation
-- Reproducible ML Workflows
