@@ -167,14 +167,6 @@ jupyter
 
 ---
 
-## Environment Variables
-
-No environment variables or API keys are required.
-
-The project uses only open-source Python libraries and the competition-provided dataset.
-
----
-
 ## Usage
 
 This project was developed and executed using **Google Colab**.
